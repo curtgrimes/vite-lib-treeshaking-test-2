@@ -7,5 +7,5 @@ This project imports from [vite-lib-treeshaking-test-part-1](https://github.com/
 
 In this project, notice that App.vue does not import the `MyGrid` component from
 the `vite-lib-treeshaking-test-1` module and only imports `MyFoobarComponent`.
-However, the build contains the ag-grid dependency that is only required by the
+However, [the build](https://github.com/curtgrimes/vite-lib-treeshaking-test-2/tree/main/dist/assets) contains the ag-grid dependency that is only required by the
 `MyGrid` component and is unused in this project.
